@@ -46,7 +46,7 @@ body {
     font-weight: bold;
 }
 
-/* Home*/
+/* Index (pagina Home) */
 .banner {
     /*para colocar uma imagem tem que colocar o url (nesse caso aqui é o caminho na pasta)*/
     background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
@@ -102,28 +102,6 @@ body {
 .box h4 {
     color: indianred;
 }
-
-/* tela do simulador (sem nada? não entendi)*/
-.simulador {
-    display: flex;
-    background-color: aqua;
-}
-
-.simulador .container {
-    display: flex;
-    flex-direction: column;
-}
-
-.simulador .container h2 {
-    color: indianred;
-    text-align: center;
-}
-
-.simulador .container p {
-    text-align: left;
-}
-
-
 
 /* LOGIN E CADASTRO*/
 .login {
@@ -191,6 +169,27 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+
+/* tela do simulador (sem nada? não entendi)*/
+.simulador {
+    display: flex;
+    background-color: aqua;
+}
+
+.simulador .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.simulador .container h2 {
+    color: indianred;
+    text-align: center;
+}
+
+.simulador .container p {
+    text-align: left;
+}
+
 
 /* Footer */
 .footer {
